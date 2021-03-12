@@ -53,7 +53,7 @@ export default {
                 console.log(this.clubesLista)
             },
     computed: {
-        clubesListaOrdem() {cls
+        clubesListaOrdem() {
         
             const listaOrdenada = this.clubesLista.slice(0).sort(
                 (a,b) => a.pontos > b.pontos ? -1 : 1);
